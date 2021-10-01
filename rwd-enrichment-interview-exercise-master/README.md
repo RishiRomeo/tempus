@@ -19,12 +19,12 @@ Windows Subsystem for Linux (WSL)
 - In order to have access to 'make' commands, run the following code in your Ubuntu terminal
 $ sudo apt-get install build-essential
 - Create a new repository and change directory into the new folder
-$ mkdir tempus
-$ cd tempus
+    $ mkdir tempus
+    $ cd tempus
 
 - Unzip the contents of this repository into the new directory
 - The correct dir path should look like : tempus > rwd-enrichment-interview-exercise-master > ..
 - Ensure that you are in the directory containing the Makefile (if unsure, use $ls to look at directory). ($cd rwd-enrichment-interview-exercise-master if in tempus parent dir)
 - Run the Makefile using the code below
-$ make run
+    $ make run
 
