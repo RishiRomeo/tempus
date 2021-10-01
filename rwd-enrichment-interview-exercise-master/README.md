@@ -25,6 +25,6 @@ $ sudo apt-get install build-essential
 - Unzip the contents of this repository into the new directory
 - The correct dir path should look like : tempus > rwd-enrichment-interview-exercise-master > ..
 - Ensure that you are in the directory containing the Makefile (if unsure, use $ls to look at directory). ($cd rwd-enrichment-interview-exercise-master if in tempus parent dir)
-- Run the Makefile using the code below
+- Run the Makefile using the code 
     $ make run
 
