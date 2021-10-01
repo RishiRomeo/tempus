@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 
 #Unpickle with joblib
-with open('model.joblib', 'rb') as pickle_file:
+with open('/model.joblib', 'rb') as pickle_file:
     model = joblib.load(pickle_file)
 
 #Load clinical_text csv and change df['features'] type
-df = pd.read_csv('clinical_text.csv')
+df = pd.read_csv('/clinical_text.csv')
 df['features']=df['features'].apply(eval).apply(np.array)
 
 
